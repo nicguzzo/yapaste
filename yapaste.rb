@@ -1,6 +1,7 @@
 #!/usr/bin/ruby
+# coding: utf-8
 =begin
-    Copyright (C) 2010 Nicol·s G. Guzzo <nicguzzo@gmail.com>
+    Copyright (C) 2010 Nicol√°s G. Guzzo <nicguzzo@gmail.com>
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -73,7 +74,7 @@ else
 end
 
 post={
-    'paste_code'=>URI.escape(code,"!*'();:@&=+$,/?%#[]"),
+    'paste_code'=>URI.escape(code,"!*'();:@&=+$,/?%#[]" ),
     'paste_expire_date'=>options[:duration],
     'paste_format'=>options[:format],
     'paste_name'=>options[:name],
