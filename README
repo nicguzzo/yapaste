@@ -1,0 +1,5 @@
+Ypaste - Yet another pastebin command line tool
+
+yapaste --help to see options
+
+echo "test" | ypaste.rb
