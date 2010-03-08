@@ -6,5 +6,5 @@ INSTALL
     ruby setup.rb config
     ruby setup.rb install
 
-echo "test" | ypaste.rb
+echo "test" | yapaste
 

@@ -25,7 +25,7 @@ require 'optparse'
 
 formats=["abap","actionscript","actionscript3","ada","apache","applescript","apt_sources","asm","asp","autoit","avisynth","bash","basic4gl","bibtex","blitzbasic","bnf","boo","bf","c","c_mac","cill","csharp","cpp","caddcl","cadlisp","cfdg","klonec","klonecpp","cmake","cobol","cfm","css","d","dcs","delphi","dff","div","dos","dot","eiffel","email","erlang","fo","fortran","freebasic","gml","genero","gettext","groovy","haskell","hq9plus","html4strict","idl","ini","inno","intercal","io","java","java5","javascript","kixtart","latex","lsl2","lisp","locobasic","lolcode","lotusformulas","lotusscript","lscript","lua","m68k","make","matlab","matlab","mirc","modula3","mpasm","mxml","mysql","text","nsis","oberon2","objc","ocaml-brief","ocaml","glsl","oobas","oracle11","oracle8","pascal","pawn","per","perl","php","php-brief","pic16","pixelbender","plsql","povray","powershell","progress","prolog","properties","providex","python","qbasic","rails","rebol","reg","robots","ruby","gnuplot","sas","scala","scheme","scilab","sdlbasic","smalltalk","smarty","sql","tsql","tcl","tcl","teraterm","thinbasic","typoscript","unreal","vbnet","verilog","vhdl","vim","visualprolog","vb","visualfoxpro","whitespace","whois","winbatch","xml","xorg_conf","xpp","z80"]
 
-options = { :duration => '10M', :format=>"text", :name=>'', :subdomain=>'' ,:private=>'0'}
+options = { :duration => '1M', :format=>"text", :name=>'', :subdomain=>'' ,:private=>'0'}
 OptionParser.new do |opts|
   opts.banner = "Usage: rpaste [options] file"
   opts.on("-f", "--format FORMAT",String, "Code format") do |f|
