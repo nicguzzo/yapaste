@@ -2,4 +2,9 @@ Ypaste - Yet another pastebin command line tool
 
 yapaste --help to see options
 
+INSTALL
+    ruby setup.rb config
+    ruby setup.rb install
+
 echo "test" | ypaste.rb
+
